@@ -1,0 +1,125 @@
+.cvBloque{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 1169px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.infoBloque{
+    display: flex;
+    width: 37%;
+    background-color: rgb(7, 25, 46);
+    flex-direction: column;
+}
+.infoFoto{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.infoFoto > img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+.infoTexto{
+    height: 75%;
+    padding: 0 30px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.infoDatos{
+    margin-bottom: 40px;
+}
+
+.infoContacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+}
+.infoContacto i{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+.line{
+    width: 100%;
+    margin: 5px 0;
+    height: 1px;
+    background: #fff;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.infoHabilidades{
+    margin: 15px 0;
+}
+
+.infoHabilidades > p{
+    margin: 5px 0;
+}
+
+.descripBloque{
+    width: 63%;
+    background-color: rgb(253, 246, 246);
+    padding: 30px;
+}
+button{
+    padding: 5px;
+    background-color: rgb(7, 25, 46);
+    color: rgb(253, 246, 246);
+    border: none;
+    border-radius: 5px;
+}
+.cabecera{
+    margin-bottom: 20px;
+}
+.cabecera h1{
+    font-size: 50px;
+}
+.cabecera h3{
+    margin-top: 0.5px;
+}
+.cuerpo{
+    margin-top: 30px;
+}
+.cuerpo .line{
+    background-color: rgb(7, 25, 46);
+}
+.trabajo{
+    margin: 30px 0;
+}
+.trabajo h3{
+    margin-bottom: 0.5px;
+}
+.trabajo h4{
+    margin-bottom: 15px;
+}
+.trabajo p{
+    margin: 0 10px;
+}
